@@ -1,0 +1,17 @@
+{
+  "name": "shopping-cart",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node shoppingCart.js",
+    "test": "nyc --reporter=text mocha shoppingCart.test.js"
+  },
+  "author": "Jialin",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "nyc": "^15.1.0"
+  }
+}
